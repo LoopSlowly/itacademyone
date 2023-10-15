@@ -26,6 +26,8 @@ public class ProjectMain {
         BallService service = new BallService();
         double result = service.defineWeightBalls(balls);
         System.out.println("Sum weight = " + result);
+
+
         int resultColor;
         resultColor = service.findBallbyColor(balls, "red");
         System.out.println("red balls = " + resultColor);
